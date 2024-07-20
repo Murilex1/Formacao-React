@@ -1,2 +1,2 @@
-# Formacao-React
-Formação React da Dio.me
+# Training-React
+Dio.me React Training
