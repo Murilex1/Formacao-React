@@ -1,0 +1,45 @@
+/* a[ref="https://github.com/Murilex1"] {} TODO */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #636b87;
+}
+
+.flex {
+    display: flex;
+}
+.item {
+    width: 80px;
+    height: 80px;
+    background-color: #163466;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item:hover {
+    background-color: #c7b940;
+    cursor: pointer;
+}
+
+input:focus {
+    background-color: green;
+}
+
+.item:first-child:hover{
+    background-color: coral;
+}
+
+@media (max-width: 450px) {
+    body {
+        background-color: red;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+}
