@@ -138,9 +138,9 @@
     </div>
     <!-- Flexbox -->
     <div>
-        <h1>Flexbox</h1>
+        <h1 id="titleFlexb">Flexbox</h1>
         <hr>
-        <div class="flex">
+        <div class="flex" id="listFlex">
             <div class="item">A</div>
             <div class="item">B</div>
             <div class="item">C</div>
@@ -148,9 +148,11 @@
             <div class="item">E</div>
         </div>
         <div>
-            <input type="text">
+            <input type="text"><br><br>
+            <button onclick="window.document.getElementById('titleFlexb').remove()">Remove title FlexBox</button>
         </div>
         <hr>
     </div>
 </body>
+<script src="/JS/DOM.js"></script>
 </html>
