@@ -11,6 +11,25 @@ export const Container = styled.div`
     `
 
 export const Content = styled.div`
-    background-color: #FFFFFF;
+    background-color: #41454d;
     width: 50%;    
+    height: 50vh;
+    display:flex;
+    flex-direction:column;
+    align-items: center;    
+    // justify-content: center;
+`
+
+export const Column = styled.div`
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+`
+
+export const Row = styled.div`
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 `
