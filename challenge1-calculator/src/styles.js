@@ -13,10 +13,10 @@ export const Container = styled.div`
 export const Content = styled.div`
     background-color: #41454d;
     width: 50%;    
-    height: 50vh;
-    display:flex;
-    flex-direction:column;
-    align-items: center;    
+    // min-height: 350px;
+    // display:flex;
+    // flex-direction:column;
+    // align-items: center;    
     // justify-content: center;
 `
 

@@ -12,3 +12,4 @@ Dio.me React Training
 - getElementById
 - querySelector
 ```
+
