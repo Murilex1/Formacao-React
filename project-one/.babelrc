@@ -1,0 +1,6 @@
+{
+ "presets": [
+    "@babel/preset-nv",
+    ["@babel/preset-react", {"runtime": "automatic"}]
+ ]   
+}
